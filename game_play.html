@@ -11,19 +11,22 @@
 		<script src="game_play.js" defer></script>
 	</head>
 	<body>
-		<h1>UNO#12321</h1>
-	
+
 		<img class="preload" src="img/cards.png"/>
 
-		<div id="card-table">
-			<button id="deal">DEAL</button>
+		<div id="room">
+			<div id="card-table">
+				<button id="deal">DEAL</button>
+			</div>
+
+
 		</div>
-<!--		<footer>-->
-<!--			cards.js was created by <a href="http://einaregilsson.com">Einar Egilsson</a> and is licensed-->
-<!--			under the MIT license. The card images were created by <a href="http://nicubunu.ro">Nicu Buculei</a> and are-->
-<!--			in the public domain.-->
-<!--		</footer>-->
-		<!-- load this at the bottom so the #card-table element exists -->
+		<div id="color-popup" class="hidden">
+			<div id="red"></div>
+			<div id="blue"></div>
+			<div id="green"></div>
+			<div id="yellow"></div>
+		</div>
 
 	</body>
 </html>
