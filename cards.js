@@ -10,7 +10,7 @@ let cards = (function() {
     animationSpeed: 500,
     table: 'body',
     cardback: 'red',
-    cardsUrl: 'img/cards.png',
+    cardsUrl: 'cards.png',
   };
   let zIndexCounter = 1;
   let all = []; //All the cards created.
