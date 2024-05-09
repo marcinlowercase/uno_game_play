@@ -94,10 +94,10 @@ lowerHand.click(function(card){
 				upperhand.addCard(deck.topCard());
 				// Next Player
 				upperhand.render();
-				openPopup();
+				openColorPopup();
 
 			} else if (card.color = 'w') {
-				openPopup();
+				openColorPopup();
 			}
 		}
 
@@ -106,7 +106,7 @@ lowerHand.click(function(card){
 });
 
 // Pick Color
-function openPopup() {
+function openColorPopup() {
 	document.getElementById("color-popup").classList.remove("hidden");
 }
 
